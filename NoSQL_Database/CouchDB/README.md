@@ -4,7 +4,7 @@ libraries are easy to create for various programming environments. In this assig
 
 ## Requirements
 - `1.`: As the Python program starts, the user is asked for
-        - `a.` The CouchDB URL
-        - `b.` The CouchDB administrator id
-        - `c.` The CouchDB administrator password
-        - `d.` The Database to use for the Contact system
+        - `a.` The CouchDB URL <br />
+        - `b.` The CouchDB administrator id <br />
+        - `c.` The CouchDB administrator password <br />
+        - `d.` The Database to use for the Contact system <br />
