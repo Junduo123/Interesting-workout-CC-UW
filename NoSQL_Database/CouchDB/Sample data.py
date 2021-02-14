@@ -1,13 +1,9 @@
-# Assisgnment number: 05
-# Name: Junduo Dong
-# Date of submission: Nov.19.2019
-
 
 import couchdb
 
 couch = couchdb.Server()
 couch = couchdb.Server('http://127.0.0.1:5984/')
-couch.resource.credentials = ('***','*******')
+couch.resource.credentials = ('your_admin_id','your_admin_pass')
 db = couch.create('db_tests')
 db = couch['db_tests']
 
