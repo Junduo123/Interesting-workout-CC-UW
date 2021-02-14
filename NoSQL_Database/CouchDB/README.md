@@ -8,3 +8,12 @@ libraries are easy to create for various programming environments. In this assig
         - `b.` The CouchDB administrator id <br />
         - `c.` The CouchDB administrator password <br />
         - `d.` The Database to use for the Contact system <br />
+
+- `2.`: The information in the previous requirement is used to connect to the server and check if the database exists. If the database does not exist, then it should be created.
+
+- `3.`: The data that must be stored for each contact is as follows: <br />
+        - `a.` First name (required) <br />
+        - `b.` Last name (required) <br />
+        - `c.` Email address (required) <br />
+        - `d.` Phone number (required) <br />
+        - `e.` Notes (optional) <br />
