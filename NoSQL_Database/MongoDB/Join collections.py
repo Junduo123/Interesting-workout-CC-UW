@@ -7,10 +7,10 @@
 import pymongo
 from pymongo import MongoClient
 
-userid = ("nmika")
-password = ("Conestoga1")
+userid = ("your_userid")
+password = ("your_password")
 myclient = MongoClient("mongodb://"+userid+":"+password+"@"+"cluster0-shard-00-00-90kj9.mongodb.net:27017,cluster0-shard-00-01-90kj9.mongodb.net:27017,cluster0-shard-00-02-90kj9.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority")
-mydb = myclient['BDSA-06']
+mydb = myclient['your_db_name']
 
 # assign values to each collections 
 movies_collection = mydb.movies
