@@ -26,7 +26,7 @@ libraries are easy to create for various programming environments. In this assig
         - `5.` Exit the program <br />
 
 - `5.`: Implement the code for each of the options, using the database you connected to (or created) in step 2 of the requirements. <br />
-        - `a.` For "Find a contact", search by last name. You may get more than one result.
+        - `a.` For "Find a contact", search by last name. You may get more than one result. <br />
         - `b.` For "Delete a contact", use the document id. Please ask for confirmation before you delete.
         
 - `6.`: After an option is executed in the menu, the menu should be shown again to choose another option. However, option 5. Should exit the program,
