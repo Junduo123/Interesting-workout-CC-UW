@@ -1,6 +1,6 @@
 ## Introduction
 CouchDB is a popular document-type database. Since it uses the http protocol and JSON for communications,
-libraries are easy to create for various programming environments. In this assignment, you will use Python to demonstrate access to a CouchDB database. You will be implementing a simple contact list.
+libraries are easy to create for various programming environments. We will use Python to demonstrate access to a CouchDB database and implementing a simple contact list.
 
 ## Requirements
 - `1.`: As the Python program starts, the user is asked for <br />
@@ -29,7 +29,7 @@ libraries are easy to create for various programming environments. In this assig
         - `a.` For "Find a contact", search by last name. You may get more than one result. <br />
         - `b.` For "Delete a contact", use the document id. Please ask for confirmation before you delete.
         
-- `6.`: After an option is executed in the menu, the menu should be shown again to choose another option. However, option 5. Should exit the program.
+- `6.`: After an option is executed in the menu, the menu will show again to choose another option. However, option 5. Should exit the program.
 
 ## Notes:
 - `1.`: Use the Python library listed in PyPi: [Library URL](https://pypi.org/project/CouchDB/)
