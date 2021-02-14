@@ -1,0 +1,4 @@
+db.fullmovies.createIndex({_id:1})
+db.fullmovies.ensureIndex({'cast._id':1})
+db.fullmovies.createIndex({overview:1})
+
