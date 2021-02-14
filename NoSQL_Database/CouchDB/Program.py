@@ -1,7 +1,3 @@
-# Assisgnment number: 05
-# Name: Junduo Dong
-# Date of submission: Nov.19.2019
-
 
 import couchdb
 
