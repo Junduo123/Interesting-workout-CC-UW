@@ -20,3 +20,7 @@ MongoDB is considered the most popular document-type NoSQL database. It has grea
       -`a.` List all movie titles with only the names of the cast members. (Create an index for this.) </br>
       -`b.` Ask for a cast member, and display all movies that the member is in. (Create an index for this.) </br>
       -`c.` Ask for a keyword, and search the "overview" field to return the title and overview for each match. (Create an index for this.)
+
+&#9658;
+&#767;
+&#2400;
