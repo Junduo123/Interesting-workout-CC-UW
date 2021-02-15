@@ -7,7 +7,7 @@ libraries are easy to create for various programming environments. We will use P
         - `a.` The CouchDB URL <br />
         - `b.` The CouchDB administrator id <br />
         - `c.` The CouchDB administrator password <br />
-        - `d.` The Database to use for the Contact system <br />
+        - `d.` The Database to use for the Contact system
 
 - `2.`: The information in the previous requirement is used to connect to the server and check if the database exists. If the database does not exist, then it should be created.
 
