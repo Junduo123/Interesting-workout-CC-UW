@@ -16,7 +16,7 @@ MongoDB is considered the most popular document-type NoSQL database. It has grea
 
 - `5.` Process the data to create a new collection called __fullmovies__. This collection contain all the documents in the movies collection, and a new field called __cast__, with an array of the cast data.
 
-- `6.` Write a Python program with a menu system, to do the following, using ONLY the __fullmovie__ collection:
-      -`a.` List all movie titles with only the names of the cast members. (Create an index for this.)
-      -`b.` Ask for a cast member, and display all movies that the member is in. (Create an index for this.)
+- `6.` Write a Python program with a menu system, to do the following, using ONLY the __fullmovie__ collection: </br>
+      -`a.` List all movie titles with only the names of the cast members. (Create an index for this.) </br>
+      -`b.` Ask for a cast member, and display all movies that the member is in. (Create an index for this.) </br>
       -`c.` Ask for a keyword, and search the "overview" field to return the title and overview for each match. (Create an index for this.)
