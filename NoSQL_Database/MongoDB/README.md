@@ -14,8 +14,9 @@ MongoDB is considered the most popular document-type NoSQL database. It has grea
 
 - `4.` Create collections - movies and people in the database (you will use mongoimport to do and use the credentials to perform the imports. Command can be found in __'Command Line Tools'__ section on Atlas.
 
-- `5.` Process the data to create a new collection called __fullmovies__. This collection contain all the documents in the movies collection, and a new field called __cast__, with an array of the cast data.
-<img src='images/movies.png' width="300" height="200"/>&#8594;<img src='images/people.png' width="300" height="200"/>&#8595;<img src='images/fullmovies.png' width="600" height="400"/>
+- `5.` Process the data to create a new collection called __fullmovies__. This collection contain all the documents in the movies collection, and a new field called __cast__, with an array of the cast data.</br>
+
+<img src='images/movies.png' width="300" height="200"/>&#8594;</br><img src='images/people.png' width="300" height="200"/>&#8595;</br><img src='images/fullmovies.png' width="600" height="400"/>
 
 - `6.` Write a Python program with a menu system, to do the following, using ONLY the __fullmovie__ collection: </br>
       -`a.` List all movie titles with only the names of the cast members. (Create an index for this.) </br>
