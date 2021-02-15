@@ -14,7 +14,7 @@ MongoDB is considered the most popular document-type NoSQL database. It has grea
 
 - `4.` Create collections - movies and people in the database (you will use mongoimport to do and use the credentials to perform the imports. Command can be found in __'Command Line Tools'__ section on Atlas.
 
-- `5.` Process the data to create a new collection called __fullmovies__. This collection contain all the documents in the movies collection, and a new field called __cast__, with an array of the cast data.</br>
+- `5.` Process the data to create a new collection called __fullmovies__. This collection contain all the documents in the movies collection, and a new field called __cast__, with an array of the cast data. An example given below:</br>
 
 <img src='images/movies.png' width="500" height="200"/>&#8595;</br><img src='images/people.png' width="500" height="200"/>&#8595;</br><img src='images/fullmovies.png' width="600" height="400"/>
 
