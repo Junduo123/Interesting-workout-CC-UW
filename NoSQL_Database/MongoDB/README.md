@@ -6,8 +6,8 @@ MongoDB is considered the most popular document-type NoSQL database. It has grea
 
 - `1.` Set up the free account for MongoDB Atlas on any of the three cloud platforms.
 
-- `2.` Create an admin account for the Cluster with the following credentials:
-        -`a.` Username
+- `2.` Create an admin account for the Cluster with the following credentials: </br>
+        -`a.` Username </br>
         -`b.` Password
         
 - `3.` Create database in your cluster
