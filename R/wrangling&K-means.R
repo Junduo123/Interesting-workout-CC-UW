@@ -44,11 +44,13 @@ plot(1:10,
      ylab = 'WCSS')
 
 data_copy <- data.frame(matrix(data = NA, nrow = 1000,ncol = 24))
-for (i in seq(colnames(data[grepl("hour.",names(data))]))) {
-  for (j in c(1:1000)) {
-    data_copy[j,i] <- round(data[j,colnames(data[grepl("hour.",names(data))])[i]] * data$Total.sales[i],0)
+for (i in c(1:1000)) {
+  for (j in seq(colnames(data[grepl("hour.",names(data))]))) {
+    data_copy[i,j] <- round(data[i,colnames(data[grepl("hour.",names(data))])[j]] * data$Total.sales[i],0)
   }
-  colnames(data_copy)[i] <- colnames(data[grepl("hour.",names(data))])[i]
+  for (k in seq(colnames(data[grepl("hour.",names(data))]))) {
+    colnames(data_copy)[k] <- colnames(data[grepl("hour.",names(data))])[k]
+  }
 }
 data_copy2 <- cbind(data[,c(1:3)],data_copy)
 data_copy2 <- melt(data_copy2,id.vars = c("Item.","Department","Event.Part.of.the.day"))
