@@ -7,17 +7,11 @@ rm(list=ls())
 #Set work directory
 setwd("~/Desktop/Uwaterloo/719/A06")
 
-# Library packages
-if(!require(reshape2)){install.packages("reshape2")}
-library(reshape2)
 
 data <- read.csv("Assignment6_Data.csv")
 data$`Total.Percentage` <- apply(data[colnames(data[grepl("hour.",colnames(data))])], MARGIN =1, FUN=sum)
 data$`Actual Demand` <- round(data$Total.sales * data$Total.Percentage,0)
 
-norm01 <- function(x) {
-  return ((x - min(x)) / (max(x) - min(x)))
-}
 
 data_copy <- data.frame(matrix(data = NA, nrow = 1000,ncol = 24))
 for (i in seq(colnames(data[grepl("hour.",names(data))]))) {
